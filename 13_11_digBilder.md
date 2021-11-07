@@ -20,9 +20,7 @@ Für Vektor- und für Rastergrafiken gibt es jeweils eigene Dateiformate. Im all
 * JPG - Joint Photographic Experts Group
 * SVG - Scalable Vector Graphics
 * bmp - bitmap image file
-* png
-* svg
-* gif
+* png - Portable Network Graphics (Rastergrafik, verlustfreie Kompression)
 
 Wenn wir im weiteren Verlauf des Seminars von digitalen Bildern sprechen, reden wir auf Ebene der Datenmodelle über Rasterbilder und in aller Regel repräsentieren die Werte pro Rasterzelle dabei Farbwerte.
 
@@ -88,6 +86,7 @@ In dem Smiley werden pro Zelle bzw. pro Pixel drei Farbwerte festgelegt, mit den
 
  * TIFF unterstützt CMYK-Farbmodell -> Druckausgabe
  * JPG  unterstützt ICC Profile RGB und CMYK-Farbmodell -> Druckausgabe
+ * PNG unterstützt kein CYMK, nicht für Druck gedacht; unterstützt dafür 24-bit color und verlustfreie Kompression
 
 > Frage 1 in die Gruppe: Um diesen Zahlenraum in Bits zu speichern benötigt man insgesamt pro Pixel wieviele bits ? 
 >
