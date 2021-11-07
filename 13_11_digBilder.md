@@ -6,8 +6,9 @@ Was sind die grundsätzlich zwei verschiedenen Modelle digitaler Bilder?
 
 * Rastergrafiken
 * Vektorgrafiken
-* Rasterbilder bestehen aus einer Matrix von Werten, also z.B. Bildpunkten (<https://upload.wikimedia.org/wikipedia/commons/8/8d/Kariertes_Papier_23-09-2016_PD.svg>)
-* Vektoren bestehen aus Knoten und Kanten, die sie verbinden (<https://www.schule-und-familie.de/assets/images/Malen/Malen%20nach%20Zahlen/malen-nach-zahlen-clown.jpg>)
+
+* Rasterbilder bestehen aus einer Matrix von Werten, also z.B. Bildpunkten [https://upload.wikimedia.org/wikipedia/commons/8/8d/Kariertes_Papier_23-09-2016_PD.svg](https://upload.wikimedia.org/wikipedia/commons/8/8d/Kariertes_Papier_23-09-2016_PD.svg)
+* Vektoren bestehen aus Knoten und Kanten, die sie verbinden [https://www.schule-und-familie.de/assets/images/Malen/Malen%20nach%20Zahlen/malen-nach-zahlen-clown.jp](https://www.schule-und-familie.de/assets/images/Malen/Malen%20nach%20Zahlen/malen-nach-zahlen-clown.jpg)
 
 Es besteht zwischen den beiden Modellen ein grundlegender Unterschied darin, wie Attribute, etwa Farben, angelegt werden.
 
@@ -15,10 +16,10 @@ Für Vektor- und für Rastergrafiken gibt es jeweils eigene Dateiformate. Im all
 
 > Aktivität: gemeinsames Sammeln von Dateiformaten auf dem Whitboard, dabei Vorbereitung: rechts ""Vektordaten", mitte "Rasterdaten", links "anderes"
 
-* TIF
-* JPG
-* SVG
-* bmp
+* TIF - Tagged Image File Format
+* JPG - Joint Photographic Experts Group
+* SVG - Scalable Vector Graphics
+* bmp - bitmap image file
 * png
 * svg
 * gif
@@ -84,6 +85,9 @@ mehr <https://web.stanford.edu/class/cs101/bits-bytes.html>
 Haben wir damit die Bildgröße behandelt, ist die **Farbtiefe** ein weiterer Wert, der in die Zahl der Bytes eines digitalen Bildes eingeht.
 
 In dem Smiley werden pro Zelle bzw. pro Pixel drei Farbwerte festgelegt, mit denen jeweils die Intensität des Anteils von Rot, Grün und Blau gespeichert wird. Die Intensität dereinzelnen Farben, oder auch Kanäle, reicht dabei jeweils von 0 bis 256. 
+
+ * TIFF unterstützt CMYK-Farbmodell -> Druckausgabe
+ * JPG  unterstützt ICC Profile RGB und CMYK-Farbmodell -> Druckausgabe
 
 > Frage 1 in die Gruppe: Um diesen Zahlenraum in Bits zu speichern benötigt man insgesamt pro Pixel wieviele bits ? 
 >
